@@ -1,0 +1,61 @@
+.jumbotron {
+  background-image:  url("../images/Ada_Lovelace_portrait.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 0;
+  background-color: white;
+}
+
+@media screen and (min-width: 1024px){
+  .jumbotron {
+    background-image:  url("../images/Ada_Lovelace_portrait.jpg");
+    background-size: cover;
+    min-height: 450px;
+    padding-top: 100px;
+  }
+}
+
+.jumbotron h2{
+  color: white;
+  font-family: "Libre Baskerville";
+  padding-bottom: 15px;
+  /* vertical-align: middle; */
+  }
+.jumbotron h1{
+  color: white;
+  font-family: "Libre Baskerville";
+
+}
+.jumbotron .marks{
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+/* .sectioncontainer{
+  background-color: black;
+} */
+.textheading h2{
+  font-family: "Libre Baskerville";
+  color: grey;
+
+}
+article{
+  padding-bottom: 50px;
+}
+footer{
+  padding: 15px 0;
+  background-color: #C0C0C0;
+}
+a{
+  color: grey;
+}
+a:hover{
+  color: #fca994;
+}
+
+
+footer p{
+  display: inline;
+  color: grey;
+  font-weight: bold;
+}
