@@ -8,18 +8,25 @@
 .jumbotron h2{
   color: black;
   font-family: "Libre Baskerville";
+  padding-left: 30px;
+  font-size: 23px;
+  font-weight: lighter;
+  max-width: 85%;
+  line-height: 40px;
+  color: #505050;
   }
 .jumbotron h1{
   color: black;
   font-family: "Libre Baskerville";
+  padding-top: 30px;
 }
 .jumbotron .topmarks{
-  font-size: 40px;
+  font-size: 60px;
   vertical-align: text-bottom;
 }
 .jumbotron .bottommarks{
-  font-size: 40px;
-  vertical-align: text-top;
+  font-size: 60px;
+  vertical-align: bottom;
 }
 .quotecontainer{
   margin-top: 35%;
@@ -34,8 +41,6 @@
   .jumbotron h2{
     color: white;
     padding-bottom: 15px;
-    font-size: 25px;
-    font-weight: lighter;
     }
   .jumbotron h1{
     color: white;
@@ -48,8 +53,12 @@
   }
   .quotecontainer{
     margin-top: 0%;
-    padding-left: -30%;
+    float: left;
+    padding-left:
   }
+
+
+
 }
 /* End of media query */
 
