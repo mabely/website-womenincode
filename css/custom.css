@@ -31,6 +31,9 @@
 .quotecontainer{
   margin-top: 35%;
 }
+.quotecontainer h2{
+  font-size: 23px;
+}
 @media(min-width: 1024px){
   .jumbotron {
     background-image:  url("../images/Ada_Lovelace_portrait.jpg");
@@ -54,33 +57,43 @@
   .quotecontainer{
     margin-top: 0%;
     float: left;
-    padding-left:
+    max-width: 50%;
   }
-
-
+  }
+@media(min-width: 768px){
 
 }
-/* End of media query */
 
-.textheading h2{
+/* End of media query for jumbotron */
+
+.profile h2{
   font-family: "Libre Baskerville";
   color: grey;
 }
+.profile{
+  max-width: 90%;
+  margin-bottom: 50px;
+  background-color: #F0F0F0;
+  padding: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  /* min-width: 333px; */
+}
 article{
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 footer{
   padding: 15px 0;
   background-color: #C0C0C0;
+  font-size: 14px;
 }
 a{
-  color: grey;
+  color: white;
 }
 a:hover{
-  color: #fca994;
+  color: #F3D924;
 }
 footer p{
   display: inline;
-  color: grey;
-  font-weight: bold;
+  color: white;
 }
